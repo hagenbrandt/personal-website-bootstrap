@@ -1,50 +1,97 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Hagen Brandt</title>
 </head>
 <body>
   <header>
-    <nav>
-      <button>Home</button>
-      <button>To Do</button>
-      <button>Vorerfahrungen</button>
-      <button>vita</button>
-    </nav>
+    
+      <nav class="navbar navbar-fixed navbar-expand-lg navbar-dark bg-info">
+        
+          <a href="index.html" class="nav-link"><img src="img/button.png" width="40" alt=""></a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#Goals" class="nav-link">Goals</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Knowledge" class="nav-link">Knowledge</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Vita" class="nav-link">Vita</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        
+      </nav>
+    
   </header>
   <main>
-    <section>
-      <h1>Hagen Brandt</h1>
-      <img src="./img/FOX.jpg" alt="Logo">
-      <h2>Web Development Bootcamp</h2>
-      <h3>by</h3>
-      <img src="./img/neuefische-gmbh-logo.svg" alt="">
-    </section>
-    <section>
-      <h1>Goals</h1>
-      <button>JavaScript</button>
-      <button>React</button>
-      <button>Redux</button>
-      <button>HTML5</button>
-      <button>CSS3</button>
-      <button>Modular CSS</button>
-      <button>Responsive Websites</button>
-      <button>Mobile Apps</button>
-      <button>Node.js</button>
-      <button>NoSQL</button>
-      <button>Scrum & Kanban</button>
-    </section>
-    <aside>
-      <a href="github.com">Github</a>
-      <a href="codepen.io">Codepen</a>
-      <a href="LinkedIn">LinkedIn</a>
-    </aside>
-    <section>
-      <h1>Vita</h1>
-    </section>
+    <div class="jumbotron-fluid">
+      <section class="bg-info mb-4">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-4 text-center align-baseline">Hagen Brandt</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="text-center">
+            <img src="./img/FOX.png" class="w-25" alt="Logo">
+          </div>
+        </div>
+            <h2 class="text-center align-baseline">Web Development</h2>
+            <h2 class="text-center align-baseline">by</h3>
+        <div class="text-center">
+          <div class="col">
+            <img src="./img/neuefische-gmbh-logo.svg" class="w-25" alt="">
+          </div>
+        </div>    
+      </section>
+    </div>
+      <section>
+        <h1 id="Goals">Goals</h1>
+        <button>JavaScript</button>
+        <button>React</button>
+        <button>Redux</button>
+        <button>HTML5</button>
+        <button>CSS3</button>
+        <button>Modular CSS</button>
+        <button>Responsive Websites</button>
+        <button>Mobile Apps</button>
+        <button>Node.js</button>
+        <button>NoSQL</button>
+        <button>Scrum & Kanban</button>
+      </section>
+      <section>
+        <h1 id="Knowledge">Knowledge</h1>
+      </section>
+      <aside>
+        <a href="github.com">Github</a>
+        <a href="codepen.io">Codepen</a>
+        <a href="LinkedIn">LinkedIn</a>
+      </aside>
+      <section>
+        <h1 id="Vita">Vita</h1>
+      </section>
   </main>
+  <footer id="Contact">
+
+  </footer id="Contact">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
